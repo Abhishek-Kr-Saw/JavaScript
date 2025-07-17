@@ -94,7 +94,7 @@ function increament(){
 
 
 // Closure -> ek fnc jo return kare ek or fnc aur return hone wala fnc
-// fnc hamesha use karega parent fnc ka koe variable.
+// hamesha use karega parent fnc ka koe variable.
 
 function abcd(){
     let a = 5;
@@ -103,3 +103,37 @@ function abcd(){
     }
 }
 abcd();
+
+//lexical scoping
+function abc(){
+    let a = 1;
+    function bcd(){
+        let b = 2;
+        function cde(){
+            let c = 3;
+            return a+b+c; //a,b,c are accessible due to lexical scoping. 
+        }
+    }
+}
+
+// IIFE -> immediate invoke function expression .
+
+(function(){
+    console.log("IIFE");
+})();
+
+
+// Hoisting -> in js we can call function before declaration.
+
+// Hoisting is a behavior in JavaScript (and some other languages) where 
+// variable and function declarations are moved to the top of their scope 
+// during the compilation phase before code execution.
+
+// function declaration -> hosting hoga
+// function expression   -> hosting nhi hoga (error)
+
+abcd();
+
+function abcd(){
+    console.log("Hoisting");
+}
