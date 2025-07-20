@@ -146,3 +146,63 @@ console.log("");
 const person = {}
 console.log(person?.profile?.name);  //undefined
 
+
+//Create an object for a book (title,author,price)
+const book = {
+    title : "JavaScript",
+    author : "Sheryians coding school",
+    price : "Free"
+};
+console.log(book);
+
+//Access property using both dot and bracket
+console.log(book?.title);
+console.log(book["price"]);
+
+//Write a nested object (user with address and location) -> 
+const abhi = {
+    address : {
+        pin : 82304 , 
+        location : {
+            lat : 23.66,
+            lan : 199.89
+        }
+    }
+}
+
+
+//Destructure name and age from student object
+const stud = {
+    name : "Harsh",
+    age  :26
+};
+let {name : Name} = stud;
+let {age : Age} = stud;
+console.log(Name , Age);
+
+
+//Loop through key and value of the object
+Object.entries(stud).forEach(ele => {
+    console.log(ele[0] + ": " + ele[1]);
+});
+
+console.log(Object.entries(stud)); //Object to array
+
+//Copy an object using spread operator.
+let stud2 = {...stud};
+console.log(stud2);
+
+//Copy deep copy using nested structure
+let deepCopy = JSON.parse(JSON.stringify(abhi));
+console.log(deepCopy);
+
+//Use optional chaining to safely access the deep value;
+console.log(deepCopy?.address?.pin);
+console.log(deepCopy?.address?.location?.lan);
+
+//use a variable as a key using computed properies
+let name = "Admin";
+let me = {
+    ["name"] : "Abhishek"
+}
+console.log(me);
