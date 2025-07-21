@@ -47,4 +47,31 @@ file.addEventListener("change",function(det){
     }
 });
 
+let div = document.querySelector("#hover");
+div.addEventListener("mouseover",function(){
+    div.style.backgroundColor = "yellow";
+    // div.style.borderRadius = "50%" ;
+});
+
+div.addEventListener("mouseout",function(){
+    // div.style.backgroundColor = "red";
+    // div.style.borderRadius = "" ;
+});
+
+window.addEventListener("mousemove",function(e){
+    // div.style.top = e.clientY + "px";
+    // div.style.left = e.clientX + "px";
+});
+
+
+//Event object -> target(jispe event hua) , type(kis type ka event hua like click),
+//       preventDefault(event perform hone pe kuch prevent karna like in form submission).
+
+
+//Event bubbling and capturing
+
+document.querySelector("#bubble").addEventListener("click", function() {
+    console.log("Bubble container clicked!");
+});
+
 

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* body{
+            position: relative;
+            overflow: hidden;
+        } */
         .changes{
             color : orange;
             background-color : blue;
@@ -63,6 +67,25 @@
             border-radius: 50%;
             object-fit: cover;
             
+        }
+        #hover{
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
+
+        #nav{
+            background-color: rgb(94, 93, 93);
+            color: white;
+            font-size: 30px;
+            width: 100%;
+            height: 40px;
+            position: absolute;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
     </style>
@@ -132,8 +155,16 @@
         </div> 
     </div>
 
-    
-
+    <div id="hover"></div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div id="bubble">
+        <div id="nav">
+            <a>Home</a>
+            <a>About</a>
+            <button id="bblbtn">Click me</button>
+        </div>
+    </div>
     
     <!-- <script src="script1.js"></script> -->
     <!-- <script src="script2.js"></script> -->
