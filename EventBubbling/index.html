@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+    <style>
+        .lt{
+            text-decoration: line-through;
+        }
+        #a{
+            height: 400px;
+            width: 400px;
+            background-color: cadetblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #b{
+            height: 300px;
+            width: 300px;
+            background-color  : rgb(84, 1, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #c{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(196, 132, 5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #btn{
+            height: 50px;
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>apple</li>
+        <li>guava</li>
+        <li>papaya</li>
+        <li>orange</li>
+        <li>mango</li>
+    </ul>
+
+    <div id="a">
+        <div id="b">
+            <div id="c"><button id="btn">Click me</button></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
