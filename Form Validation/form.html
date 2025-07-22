@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <style>
+        #main{
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            /* justify-content: center; */
+            margin: 10px;
+            padding: 10px 20px;
+            gap: 20px;
+        }
+        input{
+            height: 30px;
+            width: 200px;
+            background-color: black;
+            color: white;
+        }
+        textarea{
+            max-width: 400px;
+            height: 100px;
+        }
+        #msg{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="main">
+        <input type="text" placeholder="Name" id="name">
+        <div id="msg">
+
+            <small>name must be greatre than two character</small>
+        </div>
+        <input type="password" placeholder="password" id="password">
+        <input type="email" placeholder="email" id="email">
+
+        <textarea placeholder="Tell me something about yourself..."></textarea>
+        <input type="submit">   
+    </form> 
+    <script src="form.js"></script>
+</body>
+</html>
