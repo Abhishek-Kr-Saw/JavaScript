@@ -1,0 +1,63 @@
+Here is the collections of JavaScript questions.
+
+1.Basics Console usage(10 questions)
+    1.Log your name and your favroite hobby to the console.
+    2.Perfrom and log the result of 45 * 2 - 10.
+    3.Use console log to display the current year.
+    4.Create two variables for first and last name. Concate and log them.
+    5.Track the value of a variable before and after updating.
+    6.Use console.error() to simulate an error message.
+    7.Log the square of a number 12 to the console.
+    8.Print the type of a variable holding the value true.
+    9.Create a variable holding your age and log whether it's greater then 18 or not.
+    10.Log the result of 100/0 and observe the output. 
+
+2.Variable ans Data type(10 questions)
+    11.Declare a variable using let and log its value.
+    12.Create a const to store the value PI and log it.
+    13.Reassign the value to a variable declared with let and log the result.
+    14.check the type of null and log it.
+    15.Create a variable with a number as a string (eg."25) and log its type.
+    16.Use typeOf to check the type of a boolean variable.
+    17.Create three variables of type string, number ans boolean , and log their values.
+    18.Declare a variable without assigning a value. Log its type.
+    19.Create a varibale with undefined and log its type.
+    20.Use const to create an array. Try reassigning the array and observe the error.
+
+3.Loop (10 questions)
+    21.Write a for loop to print number from1 to 5.
+    22.Use while loop to sum the number from 1 to 10.
+    23.Create a for...of loop to print each character of "Javascript".
+    24.Wrie a for loop that skip the even number between 1 to 10.
+    25.Use do while loop to log number from 5 to 1.
+    26.Create a for loop that calculate the factorial of 5.
+    27.Write a nested loop to print a  3x3 grid of numbers.
+    28.Use a for loop to reverse an array.
+    29.Write a for loop that log a number between 1 to 50 which is divisible by 5.
+    30.Use a for..in loop to iterate over an object and log its key. 
+
+4.Arrays (10 questions)
+    31.Create an array of top 5 favorite movies and log it.
+    32.Find and log the second element of an array.
+    33.Add two mew elements to the start of an array using .unshift().
+    34.Remove the last element of an array and the updated array.
+    35.Use .slice() to extract the first three element of an array.
+    36.Find the index of specific element in a array using indexof().
+    37.Check if a value exists in an array using .includes(). 
+    38.Combine two array [1,2] and [3,4] using concat.
+    39.Sort an array in acending order [5,1,9,2].
+    40.Write a program that create a copy of an array without mutating the original.
+
+5.Functions (10 questions)
+    41.Write a function to check if a number is even or odd.
+    42.Create a function to calculate the area of circle with given radius.
+    43.Write a function that accept array and return sum of it.
+    44.Create a function to check if a string start with a specific character.
+    45.Create a function to find Maximum of two number.
+    46.Create a function that take a number and return its factorial.
+    47.Create a function that take string as value and return its reverse.
+    48.Create a function to find largest element of an array.
+    49.Create a function that convert a string to kebab-case (eg:"Hello World" -> "hello-world").
+    50.Create a function that log "Hello, World!" everytime it called.
+
+    
