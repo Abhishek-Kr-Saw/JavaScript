@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main button{
+    font-size: xx-large;
+    padding: 40px 60px;
+    background-color: rgb(131, 72, 6);
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+}
+
+button:active{
+    scale: 0.95;
+}
+
+.divstyle{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: linear-gradient(to right);
+
+}
